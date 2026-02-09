@@ -123,15 +123,6 @@ over "RootNode"
             }
         }
 
-        over "mat_7E5674E5AE1B0948"
-        {
-            over "Shader"
-            {
-                custom float inputs:metallic_constant = 0.89
-                custom float inputs:reflection_roughness_constant = 0.375
-            }
-        }
-
         over "mat_546D39B307D8E0EA"
         {
             over "Shader"
@@ -152,15 +143,6 @@ over "RootNode"
             }
         }
 
-        over "mat_A656A6A70C32734C"
-        {
-            over "Shader"
-            {
-                custom float inputs:metallic_constant = 0.26
-                custom float inputs:reflection_roughness_constant = 0.295
-            }
-        }
-
         over "mat_C35F1F0BE43E3BE7"
         {
             over "Shader"
@@ -178,24 +160,6 @@ over "RootNode"
                 custom asset inputs:normalmap_texture = @./assets/npc/mallorie/mallorie_upper_000_normal_dx_OTH_Normal.n.rtex.dds@
                 custom float inputs:reflection_roughness_constant = 0.98999995
                 custom asset inputs:reflectionroughness_texture = @./assets/npc/mallorie/mallorie_upper_000_roughness.r.rtex.dds@
-            }
-        }
-
-        over "mat_9E6F414FDE421227"
-        {
-            over "Shader"
-            {
-                custom float inputs:metallic_constant = 0.125
-                custom float inputs:reflection_roughness_constant = 0.475
-            }
-        }
-
-        over "mat_7913F1670E0081DA"
-        {
-            over "Shader"
-            {
-                custom float inputs:metallic_constant = 0.37
-                custom float inputs:reflection_roughness_constant = 0.22999999
             }
         }
 
@@ -258,14 +222,6 @@ over "RootNode"
             }
         }
 
-        over "mat_A8D3331F0F9EA1C3"
-        {
-            over "Shader"
-            {
-                custom bool inputs:use_legacy_alpha_state = 0
-            }
-        }
-
         over "mat_C73DACD54E38E12F"
         {
             over "Shader"
@@ -305,14 +261,6 @@ over "RootNode"
             }
         }
 
-        over "mat_D043CB3E57E9FE6B"
-        {
-            over "Shader"
-            {
-                custom float inputs:reflection_roughness_constant = 0.445
-            }
-        }
-
         over "mat_1097F3B66CE49E00"
         {
             over "Shader"
@@ -329,15 +277,6 @@ over "RootNode"
             {
                 custom asset inputs:normalmap_texture = @./assets/npc/nico/nico_hands_OTH_Normal.n.rtex.dds@
                 custom asset inputs:reflectionroughness_texture = @./assets/npc/nico/nico_hands_Roughness.r.rtex.dds@
-            }
-        }
-
-        over "mat_BDE8D4732791302D"
-        {
-            over "Shader"
-            {
-                custom asset inputs:normalmap_texture = @@
-                custom asset inputs:reflectionroughness_texture = @@
             }
         }
     }

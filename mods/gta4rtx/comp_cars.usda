@@ -24,14 +24,6 @@ over "RootNode"
             }
         }
 
-        over "mat_7226ED786097336A"
-        {
-            over "Shader"
-            {
-                custom float inputs:reflection_roughness_constant = 0.79499996
-            }
-        }
-
         over "mat_2C890F4B7E13EB61"
         {
             over "Shader"
@@ -118,15 +110,6 @@ over "RootNode"
             }
         }
 
-        over "mat_0F2B5F6FA3377C5C"
-        {
-            over "Shader"
-            {
-                custom float inputs:metallic_constant = 1
-                custom float inputs:reflection_roughness_constant = 0.105
-            }
-        }
-
         over "mat_E9DE036687894F14" (
             references = @./materials/AperturePBR_Translucent.usda@</Looks/mat_AperturePBR_Translucent>
         )
@@ -207,13 +190,4 @@ over "RootNode"
             }
         }
     }
-
-    over "cameras"
-    {
-        over "Camera"
-        {
-            matrix4d xformOp:transform = ( (-0.9976184623303479, -0.06897393433495172, -2.5822393888950967e-9, 0), (0.026122867307647048, -0.37783341426395095, 0.9255050009963637, 0), (-0.0638357221410492, 0.9233008759055799, 0.37873538668934287, 0), (1222.5691677539633, 1491.8252980016587, 447.269128971676, 1) )
-        }
-    }
 }
-
