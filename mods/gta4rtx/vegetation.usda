@@ -65,6 +65,7 @@ over "RootNode"
                                 over "Shader"
                                 {
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/AmericanBeechBark_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
 
@@ -79,6 +80,7 @@ over "RootNode"
                                     custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Beech_Large_Subsurface.a.rtex.dds@
                                     custom color3f inputs:subsurface_transmittance_color = (0.5199516, 0.21096884, 0.94208497)
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
@@ -129,6 +131,7 @@ over "RootNode"
                                 over "Shader"
                                 {
                                     custom float inputs:reflection_roughness_constant = 0.8
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
@@ -188,6 +191,7 @@ over "RootNode"
                                 over "Shader"
                                 {
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Bush_Branch_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
 
@@ -203,7 +207,7 @@ over "RootNode"
                                     custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Bush_Leaf_Subsurface.a.rtex.dds@
                                     custom color3f inputs:subsurface_transmittance_color = (0.12, 0.1, 0.95)
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
-                                    custom bool inputs:use_legacy_alpha_state = 1
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
@@ -262,6 +266,7 @@ over "RootNode"
                                     custom color3f inputs:subsurface_single_scattering_albedo = (0.6, 0.1, 0.95)
                                     custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Oak_Brown_01_Subsurface.a.rtex.dds@
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
 
@@ -270,6 +275,7 @@ over "RootNode"
                                 over "Shader"
                                 {
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Oak_Bark_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
@@ -330,6 +336,7 @@ over "RootNode"
                                 over "Shader"
                                 {
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Maple_Bark_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
 
@@ -342,6 +349,7 @@ over "RootNode"
                                     custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Sugar_maple_1_Subsurface.a.rtex.dds@
                                     custom color3f inputs:subsurface_transmittance_color = (0.59679735, 0.09892517, 0.9150579)
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
@@ -380,6 +388,7 @@ over "RootNode"
                                 over "Shader"
                                 {
                                     custom float inputs:reflection_roughness_constant = 0.8
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
@@ -434,6 +443,7 @@ over "RootNode"
                                 over "Shader"
                                 {
                                     custom float inputs:reflection_roughness_constant = 0.8
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
@@ -480,6 +490,7 @@ over "RootNode"
                                 over "Shader"
                                 {
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Bush_Branch_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
 
@@ -494,6 +505,7 @@ over "RootNode"
                                     custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Bush_Leaf_Subsurface.a.rtex.dds@
                                     custom color3f inputs:subsurface_transmittance_color = (0.12, 0.1, 0.95)
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
@@ -543,6 +555,7 @@ over "RootNode"
                                     custom float inputs:subsurface_measurement_distance = 0.75
                                     custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/BeechTree_Thin_Subsurface.a.rtex.dds@
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
 
@@ -551,6 +564,7 @@ over "RootNode"
                                 over "Shader"
                                 {
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Bark_BeechThin_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
@@ -611,6 +625,7 @@ over "RootNode"
                                     asset inputs:diffuse_texture = @./assets/vegetation/textures/Bark_Birch_Color.a.rtex.dds@
                                     asset inputs:normalmap_texture = @./assets/vegetation/textures/Bark_Birch_OTH_Normal.n.rtex.dds@
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Bark_Birch_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
 
@@ -624,6 +639,7 @@ over "RootNode"
                                     custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Birch_01_Subsurface.a.rtex.dds@
                                     custom color3f inputs:subsurface_transmittance_color = (0.4, 0.4, 0.95)
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
@@ -681,6 +697,7 @@ over "RootNode"
                                 over "Shader"
                                 {
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/AmericanBeechBark_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
 
@@ -695,6 +712,7 @@ over "RootNode"
                                     custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Beech_Large_Subsurface.a.rtex.dds@
                                     custom color3f inputs:subsurface_transmittance_color = (0.5199516, 0.21096884, 0.94208497)
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
@@ -753,6 +771,7 @@ over "RootNode"
                                 over "Shader"
                                 {
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Bark_BeechThin_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
 
@@ -767,6 +786,7 @@ over "RootNode"
                                     custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/BeechTree_Thin02_Subsurface.a.rtex.dds@
                                     custom color3f inputs:subsurface_transmittance_color = (0.10000002, 0.50694984, 0.95)
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
@@ -824,6 +844,7 @@ over "RootNode"
                                     custom float inputs:subsurface_measurement_distance = 3
                                     custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Bush_Leaf_Subsurface.a.rtex.dds@
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
@@ -874,6 +895,7 @@ over "RootNode"
                                     custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Birch_2_Subsurface.a.rtex.dds@
                                     custom color3f inputs:subsurface_transmittance_color = (0.2298117, 0.40984783, 0.7258687)
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
 
@@ -882,6 +904,7 @@ over "RootNode"
                                 over "Shader"
                                 {
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Bark_Birch_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
@@ -928,6 +951,7 @@ over "RootNode"
                                 over "Shader"
                                 {
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Oak02_Bark_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
 
@@ -940,6 +964,7 @@ over "RootNode"
                                     custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Oak_02_Subsurface.a.rtex.dds@
                                     custom color3f inputs:subsurface_transmittance_color = (0.2, 0.66795367, 0.8)
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
@@ -1018,6 +1043,7 @@ over "RootNode"
                                     custom float inputs:subsurface_measurement_distance = 0.75
                                     custom color3f inputs:subsurface_transmittance_color = (0.10000002, 0.8, 0.95)
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
 
@@ -1026,6 +1052,7 @@ over "RootNode"
                                 over "Shader"
                                 {
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Bark_BeechThinRed_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
@@ -1082,6 +1109,7 @@ over "RootNode"
                                     custom float inputs:subsurface_measurement_distance = 0.75
                                     custom color3f inputs:subsurface_transmittance_color = (0.2, 0.66795367, 0.8)
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
 
@@ -1090,6 +1118,7 @@ over "RootNode"
                                 over "Shader"
                                 {
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Oak02_Bark_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
@@ -1148,6 +1177,7 @@ over "RootNode"
                                     custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Beech_Large_Subsurface.a.rtex.dds@
                                     custom color3f inputs:subsurface_transmittance_color = (0.5199516, 0.21096884, 0.94208497)
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
 
@@ -1156,6 +1186,7 @@ over "RootNode"
                                 over "Shader"
                                 {
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/AmericanBeechBark_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
@@ -1226,6 +1257,7 @@ over "RootNode"
                                 over "Shader"
                                 {
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/LondonPlaneBark_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
 
@@ -1238,6 +1270,7 @@ over "RootNode"
                                     custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/LondonPlane_Subsurface.a.rtex.dds@
                                     custom color3f inputs:subsurface_transmittance_color = (0.51862663, 0.5252261, 0.9459459)
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
@@ -1296,6 +1329,7 @@ over "RootNode"
                                 over "Shader"
                                 {
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/AmericanElmBark_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
 
@@ -1308,6 +1342,7 @@ over "RootNode"
                                     custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/AmericanElmLeaf_Subsurface.a.rtex.dds@
                                     custom color3f inputs:subsurface_transmittance_color = (0.2, 0.25, 0.95)
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
@@ -1366,6 +1401,7 @@ over "RootNode"
                                 over "Shader"
                                 {
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/AmericanElmBark_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
 
@@ -1378,6 +1414,7 @@ over "RootNode"
                                     custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/AmericanElmLeaf_Subsurface.a.rtex.dds@
                                     custom color3f inputs:subsurface_transmittance_color = (0.2, 0.25, 0.95)
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
@@ -1487,6 +1524,7 @@ over "RootNode"
                                 over "Shader"
                                 {
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Azalea_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
 
@@ -1495,6 +1533,7 @@ over "RootNode"
                                 over "Shader"
                                 {
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/FlowerStem_05_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
@@ -1547,6 +1586,7 @@ over "RootNode"
                                     asset inputs:diffuse_texture = @./assets/vegetation/textures/Azalea_Color.a.rtex.dds@
                                     asset inputs:normalmap_texture = @./assets/vegetation/textures/Azalea_OTH_Normal.n.rtex.dds@
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Azalea_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
 
@@ -1555,6 +1595,7 @@ over "RootNode"
                                 over "Shader"
                                 {
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/FlowerStem_05_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
@@ -1614,6 +1655,7 @@ over "RootNode"
                                     custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/LondonPlane_Subsurface.a.rtex.dds@
                                     custom color3f inputs:subsurface_transmittance_color = (0.06976638, 0.46012598, 0.7528958)
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
 
@@ -1623,6 +1665,7 @@ over "RootNode"
                                 {
                                     asset inputs:diffuse_texture = @./assets/vegetation/textures/LondonPlane_BaseColor.a.rtex.dds@
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/LondonPlaneBark_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
@@ -1694,6 +1737,7 @@ over "RootNode"
                                 {
                                     custom float inputs:reflection_roughness_constant = 1
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Pine_Bark_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
 
@@ -1708,6 +1752,7 @@ over "RootNode"
                                     custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/PineTree_01_Subsurface.a.rtex.dds@
                                     custom color3f inputs:subsurface_transmittance_color = (0.17551915, 0.17551957, 0.7837838)
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
@@ -1766,6 +1811,7 @@ over "RootNode"
                                 over "Shader"
                                 {
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/FlowerStem_05_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
 
@@ -1777,6 +1823,7 @@ over "RootNode"
                                     custom float inputs:subsurface_measurement_distance = 0.75
                                     custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Azalea_02_Color.a.rtex.dds@
                                     custom color3f inputs:subsurface_transmittance_color = (0.2, 0.2, 0.95)
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
@@ -1823,6 +1870,7 @@ over "RootNode"
                                 over "Shader"
                                 {
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/FlowerStem_05_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
 
@@ -1834,6 +1882,7 @@ over "RootNode"
                                     custom float inputs:subsurface_measurement_distance = 0.75
                                     custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Azalea_Color.a.rtex.dds@
                                     custom color3f inputs:subsurface_transmittance_color = (0.2, 0.2, 0.95)
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
@@ -1887,12 +1936,14 @@ over "RootNode"
                                 {
                                     color3f inputs:diffuse_color_constant = (0.2, 0.2, 0.2)
                                     asset inputs:diffuse_texture = @./assets/vegetation/textures/Grass_Dead_01_Color.a.rtex.dds@
+                                    color3f inputs:emissive_color_constant = (1, 0.1, 0.1)
+                                    float inputs:emissive_intensity = 40
                                     custom float inputs:reflection_roughness_constant = 0.5
-                                    custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Grass_Dead_01_Roughness.r.rtex.dds@
                                     custom float inputs:subsurface_measurement_distance = 0.75
                                     custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/Grass_Dead_01_Subsurface.a.rtex.dds@
                                     custom color3f inputs:subsurface_transmittance_color = (0.2, 0.2, 0.95)
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
@@ -1937,6 +1988,7 @@ over "RootNode"
                                 {
                                     custom float inputs:reflection_roughness_constant = 1
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Pine_Bark_02_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
 
@@ -1950,6 +2002,7 @@ over "RootNode"
                                     custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/PineTree_02_Subsurface.a.rtex.dds@
                                     custom color3f inputs:subsurface_transmittance_color = (0.25652567, 0.7607351, 0.9227799)
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
@@ -2000,6 +2053,7 @@ over "RootNode"
                                 {
                                     custom float inputs:reflection_roughness_constant = 1
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/Pine_Bark_02_Roughness.r.rtex.dds@
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
 
@@ -2007,12 +2061,14 @@ over "RootNode"
                             {
                                 over "Shader"
                                 {
+                                    asset inputs:diffuse_texture = @./assets/vegetation/textures/PineTree_02_Color.a.rtex.dds@
                                     custom float inputs:reflection_roughness_constant = 0.5
                                     custom asset inputs:reflectionroughness_texture = @./assets/vegetation/textures/PineTree_02_Roughness.r.rtex.dds@
-                                    custom float inputs:subsurface_measurement_distance = 0.85
+                                    custom float inputs:subsurface_measurement_distance = 0.32
                                     custom asset inputs:subsurface_single_scattering_texture = @./assets/vegetation/textures/PineTree_02_Subsurface.a.rtex.dds@
-                                    custom color3f inputs:subsurface_transmittance_color = (0.25652567, 0.7607351, 0.9227799)
+                                    custom color3f inputs:subsurface_transmittance_color = (0.3473413, 0.66293365, 0.8996139)
                                     custom float inputs:subsurface_volumetric_anisotropy = -0.1
+                                    custom bool inputs:use_legacy_alpha_state = 0
                                 }
                             }
                         }
